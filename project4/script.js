@@ -154,7 +154,7 @@ function collisionDetection() {
           score++;
           if(score == brickRowCount * brickColumnCount) {
             alert("YOU WON");
-            Document.location.reload();
+            document.location.reload();
           }
         }
       }
